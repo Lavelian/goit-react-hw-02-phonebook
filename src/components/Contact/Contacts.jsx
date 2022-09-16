@@ -11,7 +11,7 @@ const Contact = ({ filteredContacts, filter, handleChange, removeBook }) => {
           name="filter"
           onChange={handleChange}
           value={filter}
-          placeholder="Фільтр"
+          placeholder="Filter"
         />
       </label>
 
